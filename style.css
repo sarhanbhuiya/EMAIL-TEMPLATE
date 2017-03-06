@@ -1,0 +1,63 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+@font-face {
+	 font-family: 'pacifico';
+	 src: url("Pacifico.eot") 
+	}
+@font-face {
+	 font-family: 'pacifico';
+	 src: url("Pacifico.ttf")
+		}
+
+@font-face {
+ font-family: bebas;
+ src: url("BEBAS.eot") 
+}
+@font-face {
+ font-family: bebas;
+ src: url("BEBAS.TTF") 
+}
+
+.wrapper{
+	border: .5px solid  black;
+	width: 960px;
+	margin: 0 auto;
+	background: #696969;
+}
+
+.header{
+	/*border: 2px solid  black;*/
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 22px;
+	font-family: bebas;
+}
+
+.content{
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+}
+
+.text{
+	width: 70%;
+	margin: 0 auto;
+	font-family: sans-serif;
+}
+
+#q{
+	background: #283747 ;
+	border: none;
+	color: white;
+	padding: 8px  8px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.footer{
+	text-align: center;
+}
